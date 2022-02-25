@@ -504,6 +504,7 @@ footer .footer__container {
 }
 
 footer .footer__row-1 {
+  flex: 0 1 260px;
   display: flex;
   flex-direction: column;
 }
@@ -559,7 +560,6 @@ footer .footer__text {
   font-size: 14px;
   line-height: 18px;
   opacity: 0.6;
-  max-width: 260px;
 }
 
 footer .mail::before {
@@ -575,6 +575,7 @@ footer .address::before {
 }
 
 footer .footer__row-2 {
+  flex: 0 1 165px;
   display: flex;
   flex-direction: column;
 }
@@ -602,16 +603,19 @@ footer .footer__items li {
 }
 
 footer .footer__row-3 {
+  flex: 0 1 165px;
   display: flex;
   flex-direction: column;
 }
 
 footer .footer__row-4 {
+  flex: 0 1 165px;
   display: flex;
   flex-direction: column;
 }
 
 footer .footer__row-5 {
+  flex: 0 1 260px;
   display: flex;
   flex-direction: column;
 }
