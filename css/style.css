@@ -372,6 +372,13 @@ main .slide__item {
   text-align: center;
 }
 
+main .slide__image {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 main .slide__title {
   font-style: normal;
   font-weight: bold;
